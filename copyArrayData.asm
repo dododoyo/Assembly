@@ -24,8 +24,8 @@ lea di,arr2
                 
 
 ;move the arr1 pointer's value(length of arr1) to cl 
-mov cx,[si]         
-;mov ch,00h
+mov cl,[si]         
+mov ch,00h
 
 ;increment si to go to the next index
 ;because the first index is the length 
